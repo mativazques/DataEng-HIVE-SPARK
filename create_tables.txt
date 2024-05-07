@@ -1,0 +1,27 @@
+CREATE TABLE payments (VendorID int, tpep_pickup_datetime date, payment_type int, total_amount float)
+COMMENT 'Payments'
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','; 
+
+CREATE TABLE tolls (tpep_pickup_datetime date, passenger_count int, tolls_amount float, total_amount float)
+COMMENT 'Tolls'
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','; 
+
+CREATE TABLE passenger (tpep_pickup_datetime date, passenger_count int, total_amount float)
+COMMENT 'Passenger'
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','; 
+
+CREATE TABLE congestion (tpep_pickup_datetime date, passenger_count int, congestion_surcharge float, total_amount float )
+COMMENT 'Congestion'
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','; 
+
+CREATE TABLE distance (tpep_pickup_datetime date, passenger_count int, trip_distance float, total_amount float )
+COMMENT 'Distance'
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','; 
+
+DESCRIBE passengers; 
+DESCRIBE distance;
