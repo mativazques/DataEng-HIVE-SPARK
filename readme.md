@@ -14,3 +14,9 @@ Se guardaron en archivos separados las soluciones de las consignas [create_table
 
 El archivo donde se muestra el procedimiento incluído el codigo es [Practica_Hive_Spark.pdf](Practica_Hive_Spark.pdf). 
 
+
+# Ejercicios de Transformaciones con Spark
+
+Consignas, resoluciones, código y resultados en el archivo [Practica_Hive_Spark.pdf](Practica_Hive_Spark.pdf). 
+
+
